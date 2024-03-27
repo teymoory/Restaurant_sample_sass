@@ -1,0 +1,32 @@
+.header-brand {
+    @include centering-brand(10%);
+    display: flex;
+
+    .head-BrandText {
+        text-align: center;
+        color: $color-gray ;
+        font-family: $font-sahel;
+        margin-left: 10px;
+    }
+
+    .icon {
+        display: block;
+        font-size: 80px;
+        width: 109px;
+        height: 109px;
+        color: $color-icon;
+        border: 5px solid $color-icon;
+        border-radius: 50%;
+        @include flex();
+    }
+}
+
+.main-welcome {
+    @include centering-brand(30%);
+    font-family: $font-sahel;
+    text-align: center;
+}
+
+.btn-reserve {
+    cursor: pointer;
+}
